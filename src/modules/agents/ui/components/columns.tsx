@@ -1,9 +1,9 @@
 "use client";
 
-import { ColumnDef, RowExpanding } from "@tanstack/react-table";
+import { ColumnDef } from "@tanstack/react-table";
 import { AgentsGetMany } from "../../types";
 import { GeneratedAvatar } from "@/components/generated-avatar";
-import { CornerDownRightIcon, CornerRightDownIcon, VideoIcon } from "lucide-react";
+import { CornerDownRightIcon, VideoIcon } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 
 

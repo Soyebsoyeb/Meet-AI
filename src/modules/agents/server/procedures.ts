@@ -3,10 +3,8 @@ import { string, z } from "zod";
 import { db } from "@/db";
 import { agents, meetings } from "@/db/schema";
 import { createTRPCRouter, premiumProcedure, protectedProcedure } from "@/trpc/init";
-import { create } from "domain";
 import { agentsInsertSchema, agentsUpdateSchema } from "../schema";
 import { and, count, desc, eq, getTableColumns, ilike, sql } from "drizzle-orm";
-import { Search } from "lucide-react";
 
 
 import {
@@ -18,7 +16,6 @@ import {
 
 
 import { TRPCError } from "@trpc/server";
-import { meetingsInsertSchema } from "@/modules/meetings/schema";
 
 
 

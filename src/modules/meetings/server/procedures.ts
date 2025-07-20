@@ -18,7 +18,6 @@ import { MeetingStatus, StreamTranscriptItem } from "../types";
 import { streamVideo } from "@/lib/stream-video";
 import { generateAvatarUri } from "@/lib/avatar";
 import JSONL from "jsonl-parse-stringify";
-import { name } from "@stream-io/video-react-sdk";
 import { streamChat } from "@/lib/stream-chat";
 
 

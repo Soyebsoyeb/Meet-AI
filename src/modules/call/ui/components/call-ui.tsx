@@ -4,7 +4,6 @@ import { useState } from "react";
 import { StreamTheme , useCall } from "@stream-io/video-react-sdk";
 import { CallLobby } from "./call-lobby";
 import { CallActive } from "./call-active";
-import { on } from "events";
 import { CallEnded } from "./call-ended";
 
 

@@ -9,7 +9,7 @@ import {
 from "@/components/ui/breadcrumb"
 
 
-import { ChevronRightIcon , TrashIcon , PencilIcon , MoreVertical, MoreVerticalIcon } from "lucide-react";
+import { ChevronRightIcon , TrashIcon , PencilIcon , MoreVerticalIcon } from "lucide-react";
 import Link from "next/link";
 
 

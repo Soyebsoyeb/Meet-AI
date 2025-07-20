@@ -11,7 +11,6 @@ import { EmptyState } from  "@/components/empty-state";
 import { useRouter } from  "next/navigation";
 import { useMeetingsFilters } from  "../../hooks/use-meetings-filters";
 import { DataPagination } from  "@/components/data-pagination";
-import { meetings } from "@/db/schema";
 
 
 

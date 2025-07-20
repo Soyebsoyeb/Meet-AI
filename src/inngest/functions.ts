@@ -4,7 +4,8 @@ import { inngest } from "@/inngest/client";
 import { StreamTranscriptItem } from "@/modules/meetings/types";
 import { eq, inArray } from "drizzle-orm";
 import JSONL from "jsonl-parse-stringify";
-import { Users } from "lucide-react";
+
+
 
 import {createAgent , openai, TextMessage} from '@inngest/agent-kit'
 

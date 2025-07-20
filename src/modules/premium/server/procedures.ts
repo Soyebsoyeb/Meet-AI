@@ -5,7 +5,6 @@ import { db } from "@/db";
 import { eq, count } from "drizzle-orm";
 
 import {
-  baseProcedure,
   createTRPCRouter,
   protectedProcedure,
 } from "@/trpc/init";
